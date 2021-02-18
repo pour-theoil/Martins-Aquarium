@@ -1,0 +1,72 @@
+body {
+    background-color: #f9fbf2;
+    margin: 0;
+   color: #0e1c36;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #afcbff;
+}
+
+main {
+    background-color: #0e1c36;
+    border: 1em solid #0e1c36;
+    display: flex;
+    justify-self: space-evenly;
+   
+    
+}
+
+.martin-fish {
+    flex: 3;
+    flex: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.fish {
+    background-color: #d7f9ff;
+    justify-content: center;
+    margin-right: 1em;
+
+}
+
+.fish-type {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-left: -25px;
+    margin-top: -10px;
+}
+
+.individual-fish {
+    margin-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    border: 1px dotted #0e1c36;
+}
+.quotes {
+    background-color: #d7f9ff;
+    flex: center;
+    margin-right: 1em;
+}
+
+.harvest-locations {
+    background-color: #d7f9ff;
+    margin-right: 1em;
+}
+aside {
+    max-width: 150px;
+    justify-content: flex-end;
+    background-color: #ffede1;
+}
+
+footer {
+    background-color: #afcbff;  
+    display: flex;
+    margin: 0;
+}
