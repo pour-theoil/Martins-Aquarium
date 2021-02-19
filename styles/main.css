@@ -10,6 +10,11 @@ header {
     background-color: #afcbff;
 }
 
+.title {
+    border: 10px solid #d7f9ff;
+    border-left: 10px dashed #ffede1;
+}
+
 main {
     background-color: #0e1c36;
     border: 1em solid #0e1c36;
