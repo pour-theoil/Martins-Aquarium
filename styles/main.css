@@ -1,77 +1,88 @@
+/* Be sure to create a styles directory and put this file in there */
+/* @import "tips.css"; */
+
 body {
-    background-color: #f9fbf2;
-    margin: 0;
-   color: #0e1c36;
+	background-color: antiquewhite;
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
 }
 
 header {
-    display: flex;
-    justify-content: center;
-    background-color: #afcbff;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	background-color: aqua
 }
 
-.title {
-    border: 10px solid #d7f9ff;
-    border-left: 10px dashed #ffede1;
+header h1 {
+	line-height: 1em;
+	color: darkblue;
+	text-align: left;
+	padding: 0 2em;
+	font-size: 1.5em;
 }
 
-main {
-    background-color: #0e1c36;
-    border: 1em solid #0e1c36;
-    display: flex;
-    justify-self: space-evenly;
-   
-    
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 1em;
+	overflow: hidden;
+	background-color: rgb(100, 128, 128);
+	display: flex;
+	justify-content: flex-end; 
+  }
+  
+nav li {
+	display: inline;
+	margin: 0 1em;
+  }
+
+nav a {
+	color: white;
 }
 
-.martin-fish {
-    flex: 3;
-    flex: auto;
-    justify-content: center;
-    align-content: center;
+nav a:hover {
+	color: lightsalmon;
+}
+nav a:active {
+	color: lightgreen;
 }
 
-.fish {
-    background-color: #d7f9ff;
-    justify-content: center;
-    margin-right: 1em;
-
+.fishTank {
+	margin: 1em 0;
+	display: flex;
 }
 
-.fish-type {
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    margin-left: -25px;
-    margin-top: -10px;
+#fishList{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;	
 }
 
-.individual-fish {
-    margin-left: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    flex-direction: row;
-    border: 1px dotted #0e1c36;
-}
-.quotes {
-    background-color: #d7f9ff;
-    flex: center;
-    margin-right: 1em;
+.fish-card {
+	background-color: lightcyan;
+	margin: .5em;
+	max-width: 200px;
 }
 
-.harvest-locations {
-    background-color: #d7f9ff;
-    margin-right: 1em;
+.fish-card ul {
+	list-style-type:none;
+	padding: .5em;
+	margin: .2em;
+	font-size: .8em;
 }
-aside {
-    max-width: 150px;
-    justify-content: flex-end;
-    background-color: #ffede1;
+
+.fish-image {
+	width: 100%;
+	height: auto;
+}
+
+.section-main {
+	margin: 1em;
 }
 
 footer {
-    background-color: #afcbff;  
-    display: flex;
-    margin: 0;
+	background-color: darkcyan;
+	color: whitesmoke;
+	text-align: center;
 }
