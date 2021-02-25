@@ -126,7 +126,7 @@ const fishCollection = [
 		name: "Finn",
 		species: "Bass",
 		inches: 20,
-		image: "bluefish.jpeg",
+		image: "bluefish.jpg",
 	},
 	{
 		saltWater: true,
