@@ -1,12 +1,14 @@
 console.log("You are great, Hazzah");
 
-import { FishList } from './FishList.js';
+import { FishList } from './fish/FishList.js';
 
 const allTheFish = FishList();
 
 import { TipList } from './tips/TipsList.js';
 
 const allTheTips = TipList();
-// for (const fish of allTheFish) {
-//     console.log(fish)
-// }
+
+
+import { harvestList } from './harvest/harvestList.js';
+
+const allTheHarvest = harvestList ();

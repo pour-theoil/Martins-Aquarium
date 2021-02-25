@@ -10,10 +10,8 @@ export const FishList = () => {
     let fishHTMLRepresentations = "";
     // loop over the array of fish
     for (let x of allFishes) {
-        fishHTMLRepresentations += Fish(x);
-        
+        fishHTMLRepresentations += Fish(x);   
     }
-    console.log("fishHTMLRepresentations", fishHTMLRepresentations)
     DOMlocation.innerHTML += fishHTMLRepresentations;
 }
 
