@@ -213,6 +213,39 @@ const fishCollection = [
 	}
 ];
 
+
+export const getMostHolyFish = () => {
+    // 3, 6, 9, 12, etc... fish
+    const holyFishArray = [];
+
+    for (const fishobject of fishCollection) {
+	    if(fishobject.inches % 3 === 0) {
+			holyFishArray.push(fishobject);
+		}
+
+    }
+
+    return holyFishArray
+}
+
+export const getSoldierFish = () => {
+
+	const soldiersArray = [];
+	for(const soldfish of fishCollection) {
+		if(soldfish.inches%5 === 0 && soldfish.inches%3 !== 0) {
+			soldiersArray.push(soldfish);	
+		}
+		
+	}
+    // 5, 10, 15, 20, 25, etc... fish
+    return soldiersArray;
+}
+
+export const getUnworthy = () => {
+    // Any fish not a multiple of 3 or 5
+    return unworthyArray
+}
+
 export const getFish = () => {
 	return fishCollection;
 }
