@@ -11,4 +11,4 @@ const allTheTips = TipList();
 
 import { HarvestList } from './harvest/HarvestList.js';
 
-const allTheHarvest = HarvestList();
+
