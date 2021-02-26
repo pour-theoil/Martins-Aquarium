@@ -1,4 +1,4 @@
-const harvest = [
+const harvestdets = [
 {
     Location: "New Zealand",
     DateVisted: "Sept, 2020",
@@ -26,5 +26,5 @@ const harvest = [
 ]
 
 export const harvlocation = () => {
-    return harvest;
+    return harvestdets;
 }
