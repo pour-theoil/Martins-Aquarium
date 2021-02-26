@@ -9,6 +9,6 @@ import { TipList } from './tips/TipsList.js';
 const allTheTips = TipList();
 
 
-import { harvestList } from './harvest/harvestList.js';
+import { HarvestList } from './harvest/HarvestList.js';
 
-const allTheHarvest = harvestList ();
+const allTheHarvest = HarvestList();

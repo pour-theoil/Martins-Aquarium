@@ -12,6 +12,7 @@ export const FishList = () => {
     for (let x of allFishes) {
         fishHTMLRepresentations += Fish(x);   
     }
+    console.log("harvest html", fishHTMLRepresentations);
     DOMlocation.innerHTML += fishHTMLRepresentations;
 }
 

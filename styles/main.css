@@ -59,6 +59,12 @@ nav a:active {
 	justify-content: space-evenly;	
 }
 
+#harvest{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;	
+}
+
 .fish-card {
 	background-color: lightcyan;
 	margin: .5em;
