@@ -71,6 +71,32 @@ nav a:active {
 	max-width: 200px;
 }
 
+.harvest {
+	text-align: center;
+}
+
+.harvest-card {
+	border: 5px solid green;
+	background-color: blue;
+	list-style-type: none;
+	margin: .5em;
+	max-width: 200px;
+}
+
+.harvest-card ul {
+	list-style-type: none;
+	padding: .5em;
+	margin: .2em;
+	font-size: .8em;
+	text-align: left;
+}	
+
+
+.harvest-image {
+	height: 150px;
+	width: 100%;
+}
+
 .fish-card ul {
 	list-style-type:none;
 	padding: .5em;
